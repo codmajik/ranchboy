@@ -1,0 +1,16 @@
+{application, 'ranchboy',
+ [{description, "Msg Queue Protocols Implementation"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    ranch
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
