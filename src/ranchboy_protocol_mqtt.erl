@@ -52,7 +52,7 @@ init(Ref, Socket, Transport, [Mod, Opts]) when is_atom(Mod), is_list(Opts) ->
     timer = erlang:make_ref(),
     ka_timeout = ?MSECS(5),
     ka_grace_period = ?MSECS(3),
-    module = Module
+    module = Mod
   },
 
   case Mod:init(Opts, Ctx) of
